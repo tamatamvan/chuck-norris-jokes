@@ -7,7 +7,7 @@ export default class App extends React.Component {
         <View style={styles.toolbar}>
           <Text style={{
             color: '#fff'
-          }}>Ini nanti jadi toolbar</Text>
+          }}>Chuck Norris Jokes!</Text>
         </View>
       );
     }
@@ -15,7 +15,7 @@ export default class App extends React.Component {
   
   const styles = StyleSheet.create({
     toolbar: {
-      backgroundColor: '#2962FF',
+      backgroundColor: '#DD2C00',
       alignItems: 'flex-start',
       justifyContent: 'center',
       height: 48,
