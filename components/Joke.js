@@ -17,10 +17,17 @@ class componentName extends Component {
     }
   }
 
+  handleData = joke => {
+    this.setState({
+      joke: joke
+    })
+  }
+
   componentWillMount () {
     axios.get('https://api.chucknorris.io/jokes/random')
       .then(({data}) => {
         console.log(data);
+        this.handleData(data)
       })
       .catch(err => {
         console.log(err);
@@ -31,13 +38,13 @@ class componentName extends Component {
     return (
       <View>
         <Image source={{ 
-          uri: 'https://assets.chucknorris.host/img/avatar/chuck-norris.png', 
+          uri: this.state.joke.icon_url, 
         }}
         style={{
           height: 100,
           width: 100,
         }}/>
-        <Text>Di sini ntar joke nya</Text>
+        <Text>{ this.state.joke.value }</Text>
       </View>
     );
   }
