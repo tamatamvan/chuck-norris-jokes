@@ -24,17 +24,22 @@ class componentName extends Component {
     })
   }
 
+  handleErr = err => {
+    this.setState({
+      error: true
+    })
+  }
+
   componentDidMount () {
     this.setState({
       loading: true,
     })
     axios.get('https://api.chucknorris.io/jokes/random')
       .then(({data}) => {
-        console.log(data);
         this.handleData(data)
       })
       .catch(err => {
-        console.log(err);
+        this.handleErr()
       })
   }
 
@@ -43,6 +48,12 @@ class componentName extends Component {
       return (
         <View>
           <Text>Getting a joke for you . . </Text>
+        </View>
+      );
+    } else if (this.state.error) {
+      eturn (
+        <View>
+          <Text>Oops, something wrong . . </Text>
         </View>
       );
     } else {
