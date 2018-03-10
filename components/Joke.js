@@ -19,11 +19,15 @@ class componentName extends Component {
 
   handleData = joke => {
     this.setState({
-      joke: joke
+      joke: joke,
+      loading: false
     })
   }
 
-  componentWillMount () {
+  componentDidMount () {
+    this.setState({
+      loading: true,
+    })
     axios.get('https://api.chucknorris.io/jokes/random')
       .then(({data}) => {
         console.log(data);
@@ -35,18 +39,26 @@ class componentName extends Component {
   }
 
   render() {
-    return (
-      <View>
-        <Image source={{ 
-          uri: this.state.joke.icon_url, 
-        }}
-        style={{
-          height: 100,
-          width: 100,
-        }}/>
-        <Text>{ this.state.joke.value }</Text>
-      </View>
-    );
+    if (this.state.loading) {
+      return (
+        <View>
+          <Text>Getting a joke for you . . </Text>
+        </View>
+      );
+    } else {
+      return (
+        <View>
+          <Image source={{ 
+            uri: this.state.joke.icon_url, 
+          }}
+          style={{
+            height: 100,
+            width: 100,
+          }}/>
+          <Text>{ this.state.joke.value }</Text>
+        </View>
+      );
+    }
   }
 }
 
