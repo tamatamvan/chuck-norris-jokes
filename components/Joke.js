@@ -58,7 +58,7 @@ class componentName extends Component {
       );
     } else {
       return (
-        <View>
+        <View style={jokeCardStyles}>
           <Image source={{ 
             uri: this.state.joke.icon_url, 
           }}
@@ -72,5 +72,16 @@ class componentName extends Component {
     }
   }
 }
+
+const jokeCardStyles = {
+  backgoundColor: '#ffffff',
+  padding: 16,
+  textAlign: 'center',
+  display: 'flex',
+  alignItems: 'center',
+  justifyContent: 'center'
+}
+
+
 
 export default componentName;
