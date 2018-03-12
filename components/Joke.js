@@ -55,7 +55,7 @@ class componentName extends Component {
         </View>
       );
     } else if (this.state.error) {
-      eturn (
+      return (
         <View>
           <Text>Oops, something wrong . . </Text>
         </View>
@@ -71,7 +71,7 @@ class componentName extends Component {
             width: 100,
           }}/>
           <Text style={jokeTextStyles}>{ this.state.joke.value }</Text>
-          <TouchableOpacity style={button}>
+          <TouchableOpacity style={button} onPress={ () => this.fetchJoke() }>
             <Text style={{ color: '#ffffff' }}>Get Another Jokes!</Text>
           </TouchableOpacity>
         </View>
