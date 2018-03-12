@@ -74,6 +74,13 @@ class componentName extends Component {
           <TouchableOpacity style={button} onPress={ () => this.fetchJoke() }>
             <Text style={{ color: '#ffffff' }}>Get Another Jokes!</Text>
           </TouchableOpacity>
+          <TouchableOpacity onPress={ () => this.props.navigation.navigate('About') }>
+            <Text style={{
+              color: 'blue',
+              textDecorationLine: 'underline',
+              textDecorationStyle: 'solid'
+            }}>About</Text>
+          </TouchableOpacity>
         </View>
       );
     }
