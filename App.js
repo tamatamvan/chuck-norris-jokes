@@ -12,7 +12,16 @@ const RootStack = StackNavigator({
     screen: About
   },
 }, {
-  initialRouteName: 'Home'
+  initialRouteName: 'Home',
+  navigationOptions: {
+    headerStyle: {
+      backgroundColor: '#dd2c00',
+    },
+    headerTintColor: '#fff',
+    headerTitleStyle: {
+      fontWeight: 'bold',
+    },
+  },
 })
 
 export default class App extends React.Component {
