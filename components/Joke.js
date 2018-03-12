@@ -86,6 +86,10 @@ const jokeCardStyles = {
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'center',
+  borderStyle: 'solid',
+  borderRadius: 8,
+  borderWidth: 3,
+  margin: 16,
 }
 
 const jokeTextStyles = {
