@@ -71,8 +71,8 @@ class componentName extends Component {
             width: 100,
           }}/>
           <Text style={jokeTextStyles}>{ this.state.joke.value }</Text>
-          <TouchableOpacity>
-            <Text>Get Another Jokes!</Text>
+          <TouchableOpacity style={button}>
+            <Text style={{ color: '#ffffff' }}>Get Another Jokes!</Text>
           </TouchableOpacity>
         </View>
       );
@@ -81,9 +81,8 @@ class componentName extends Component {
 }
 
 const jokeCardStyles = {
-  backgoundColor: '#ffffff',
+  backgroundColor: '#ffffff',
   padding: 16,
-  textAlign: 'center',
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'center',
@@ -92,6 +91,15 @@ const jokeCardStyles = {
 const jokeTextStyles = {
   textAlign: 'center',
   fontSize: 16,
+}
+
+const button = {
+  paddingTop: 8,
+  paddingBottom: 8,
+  paddingLeft: 16,
+  paddingRight: 16,
+  margin: 16,
+  backgroundColor: '#DD2C00',
 }
 
 
