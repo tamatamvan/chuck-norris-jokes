@@ -50,13 +50,13 @@ class componentName extends Component {
   render() {
     if (this.state.loading) {
       return (
-        <View>
+        <View style={jokeCardStyles}>
           <Text>Getting a joke for you . . </Text>
         </View>
       );
     } else if (this.state.error) {
       return (
-        <View>
+        <View style={jokeCardStyles}> 
           <Text>Oops, something wrong . . </Text>
         </View>
       );
