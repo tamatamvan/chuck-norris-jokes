@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { View, Image, Text } from 'react-native'
+import { View, Image, Text, TouchableOpacity } from 'react-native'
 import axios from 'axios'
 
 class componentName extends Component {
@@ -71,6 +71,9 @@ class componentName extends Component {
             width: 100,
           }}/>
           <Text style={jokeTextStyles}>{ this.state.joke.value }</Text>
+          <TouchableOpacity>
+            <Text>Get Another Jokes!</Text>
+          </TouchableOpacity>
         </View>
       );
     }
