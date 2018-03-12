@@ -30,7 +30,7 @@ class componentName extends Component {
     })
   }
 
-  componentDidMount () {
+  fetchJoke = () => {
     this.setState({
       loading: true,
     })
@@ -41,6 +41,10 @@ class componentName extends Component {
       .catch(err => {
         this.handleErr()
       })
+  }
+
+  componentDidMount () {
+    this.fetchJoke()
   }
 
   render() {
