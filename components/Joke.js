@@ -66,7 +66,7 @@ class componentName extends Component {
             height: 100,
             width: 100,
           }}/>
-          <Text>{ this.state.joke.value }</Text>
+          <Text style={jokeTextStyles}>{ this.state.joke.value }</Text>
         </View>
       );
     }
@@ -79,9 +79,13 @@ const jokeCardStyles = {
   textAlign: 'center',
   display: 'flex',
   alignItems: 'center',
-  justifyContent: 'center'
+  justifyContent: 'center',
 }
 
+const jokeTextStyles = {
+  textAlign: 'center',
+  fontSize: 16,
+}
 
 
 export default componentName;
