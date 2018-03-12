@@ -17,6 +17,10 @@ class componentName extends Component {
     }
   }
 
+  static navigationOptions = {
+    title: 'Chuck Norris Jokes!',
+  }
+
   handleData = joke => {
     this.setState({
       joke: joke,
