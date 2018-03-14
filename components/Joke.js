@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { View, Image, Text, TouchableOpacity } from 'react-native'
+import { View, Image, Text, TouchableOpacity, StyleSheet } from 'react-native'
 import axios from 'axios'
 
 class componentName extends Component {
@@ -66,7 +66,7 @@ class componentName extends Component {
       );
     } else {
       return (
-        <View style={jokeCardStyles}>
+        <View style={styles.jokeCard}>
           <Image source={{ 
             uri: this.state.joke.icon_url, 
           }}
@@ -74,8 +74,8 @@ class componentName extends Component {
             height: 100,
             width: 100,
           }}/>
-          <Text style={jokeTextStyles}>{ this.state.joke.value }</Text>
-          <TouchableOpacity style={button} onPress={ () => this.fetchJoke() }>
+          <Text style={styles.jokeText}>{ this.state.joke.value }</Text>
+          <TouchableOpacity style={stylesbutton} onPress={ () => this.fetchJoke() }>
             <Text style={{ color: '#ffffff' }}>Get Another Jokes!</Text>
           </TouchableOpacity>
           <TouchableOpacity onPress={ () => this.props.navigation.navigate('About') }>
@@ -91,31 +91,30 @@ class componentName extends Component {
   }
 }
 
-const jokeCardStyles = {
-  backgroundColor: '#ffffff',
-  padding: 16,
-  display: 'flex',
-  alignItems: 'center',
-  justifyContent: 'center',
-  borderStyle: 'solid',
-  borderRadius: 8,
-  borderWidth: 3,
-  margin: 16,
+const styles = {
+  jokeCard: {
+    backgroundColor: '#ffffff',
+    padding: 16,
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    borderStyle: 'solid',
+    borderRadius: 8,
+    borderWidth: 3,
+    margin: 16,
+  },
+  jokeText: {
+    textAlign: 'center',
+    fontSize: 16,
+  },
+  button: {
+    paddingTop: 8,
+    paddingBottom: 8,
+    paddingLeft: 16,
+    paddingRight: 16,
+    margin: 16,
+    backgroundColor: '#DD2C00',
+  }
 }
-
-const jokeTextStyles = {
-  textAlign: 'center',
-  fontSize: 16,
-}
-
-const button = {
-  paddingTop: 8,
-  paddingBottom: 8,
-  paddingLeft: 16,
-  paddingRight: 16,
-  margin: 16,
-  backgroundColor: '#DD2C00',
-}
-
 
 export default componentName;
