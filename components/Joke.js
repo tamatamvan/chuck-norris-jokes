@@ -91,7 +91,7 @@ class componentName extends Component {
   }
 }
 
-const styles = {
+const styles = StyleSheet.create({
   jokeCard: {
     backgroundColor: '#ffffff',
     padding: 16,
@@ -115,6 +115,6 @@ const styles = {
     margin: 16,
     backgroundColor: '#DD2C00',
   }
-}
+})
 
 export default componentName;
