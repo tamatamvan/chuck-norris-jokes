@@ -3,24 +3,6 @@
 
     <item
         is-multidex="false"
-        jar="/Users/mrtmvn/Documents/tamvanslab/reactamvan-native/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="c65a2e39d54023bac3aef64a2f0cff89289c7ff6">
-        <dex dex="/Users/mrtmvn/Documents/tamvanslab/reactamvan-native/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-1.3.0_952344625dc68d2692d55b65008fae9ffa910b6a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/mrtmvn/Documents/tamvanslab/reactamvan-native/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
-        <dex dex="/Users/mrtmvn/Documents/tamvanslab/reactamvan-native/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.0.1_fdaaced77f6fedbc114fd691c2adb5a2bb9447d1.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/Users/mrtmvn/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar"
         jumboMode="false"
         optimize="true"
@@ -30,39 +12,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/mrtmvn/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
-        <dex dex="/Users/mrtmvn/Documents/tamvanslab/reactamvan-native/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_ae3dcdf9a67db82064fc04faced7aa35e83d1599.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/Users/mrtmvn/Documents/tamvanslab/reactamvan-native/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/1.3.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="fe85b87215e405f5917d40ae4960488ac9224b74">
         <dex dex="/Users/mrtmvn/Documents/tamvanslab/reactamvan-native/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-1.3.0_a18a0782a5eb0d95be098eee1a97001b401315ef.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/mrtmvn/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.6.0/3f9b16b774f2c36cfd86dd2053d0b3059531dacc/okhttp-urlconnection-3.6.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
-        <dex dex="/Users/mrtmvn/Documents/tamvanslab/reactamvan-native/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.6.0_59a00aa89b85bdd340e851e6b871ae96bfe279bd.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/mrtmvn/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
-        <dex dex="/Users/mrtmvn/Documents/tamvanslab/reactamvan-native/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_e6cc04fd4afe97b4e75f9bf59c5b3495853fa62c.jar" />
     </item>
     <item
         is-multidex="false"
@@ -102,30 +57,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/mrtmvn/Documents/tamvanslab/reactamvan-native/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.52.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="af61eb11ffb4296cab0c93218248a3dfcec0a84c">
-        <dex dex="/Users/mrtmvn/Documents/tamvanslab/reactamvan-native/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.52.0_99bc9f3c70ed80fd17b4fa19f7037b6a33ae8ee1.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/Users/mrtmvn/Documents/tamvanslab/reactamvan-native/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/1.3.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
         <dex dex="/Users/mrtmvn/Documents/tamvanslab/reactamvan-native/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-okhttp3-1.3.0_8fa2681489adbc06ff2c45ed7142dff68b8e9e6d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/mrtmvn/Documents/tamvanslab/reactamvan-native/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
-        <dex dex="/Users/mrtmvn/Documents/tamvanslab/reactamvan-native/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.0.1_34396a38e623855748287959fe62a4a6c09b0b7c.jar" />
     </item>
     <item
         is-multidex="false"
@@ -147,15 +84,6 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/mrtmvn/Documents/tamvanslab/reactamvan-native/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/1.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
-        <dex dex="/Users/mrtmvn/Documents/tamvanslab/reactamvan-native/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-1.3.0_e4f4c0ab66c2568925d89124979a99334746d258.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/Users/mrtmvn/Documents/tamvanslab/reactamvan-native/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
@@ -174,21 +102,93 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/mrtmvn/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
-        <dex dex="/Users/mrtmvn/Documents/tamvanslab/reactamvan-native/android/app/build/intermediates/pre-dexed/debug/okhttp-3.6.0_ffbc4e106dcc9b224aaf8edb94fe6ccb10f66437.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/Users/mrtmvn/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="f162442a19fff13995fbd51ba414d9ee05579080">
         <dex dex="/Users/mrtmvn/Documents/tamvanslab/reactamvan-native/android/app/build/intermediates/pre-dexed/debug/staticlayout-proxy-1.0_539dd84414ec51dabded8e0536f152092ef9a3c1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mrtmvn/Documents/tamvanslab/reactamvan-native/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c65a2e39d54023bac3aef64a2f0cff89289c7ff6">
+        <dex dex="/Users/mrtmvn/Documents/tamvanslab/reactamvan-native/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-1.3.0_952344625dc68d2692d55b65008fae9ffa910b6a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mrtmvn/Documents/tamvanslab/reactamvan-native/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/Users/mrtmvn/Documents/tamvanslab/reactamvan-native/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.0.1_fdaaced77f6fedbc114fd691c2adb5a2bb9447d1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mrtmvn/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="/Users/mrtmvn/Documents/tamvanslab/reactamvan-native/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_ae3dcdf9a67db82064fc04faced7aa35e83d1599.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mrtmvn/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/Users/mrtmvn/Documents/tamvanslab/reactamvan-native/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_e6cc04fd4afe97b4e75f9bf59c5b3495853fa62c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mrtmvn/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.6.0/3f9b16b774f2c36cfd86dd2053d0b3059531dacc/okhttp-urlconnection-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
+        <dex dex="/Users/mrtmvn/Documents/tamvanslab/reactamvan-native/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.6.0_59a00aa89b85bdd340e851e6b871ae96bfe279bd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mrtmvn/Documents/tamvanslab/reactamvan-native/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.52.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="af61eb11ffb4296cab0c93218248a3dfcec0a84c">
+        <dex dex="/Users/mrtmvn/Documents/tamvanslab/reactamvan-native/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.52.0_99bc9f3c70ed80fd17b4fa19f7037b6a33ae8ee1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mrtmvn/Documents/tamvanslab/reactamvan-native/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/Users/mrtmvn/Documents/tamvanslab/reactamvan-native/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.0.1_34396a38e623855748287959fe62a4a6c09b0b7c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mrtmvn/Documents/tamvanslab/reactamvan-native/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
+        <dex dex="/Users/mrtmvn/Documents/tamvanslab/reactamvan-native/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-1.3.0_e4f4c0ab66c2568925d89124979a99334746d258.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mrtmvn/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
+        <dex dex="/Users/mrtmvn/Documents/tamvanslab/reactamvan-native/android/app/build/intermediates/pre-dexed/debug/okhttp-3.6.0_ffbc4e106dcc9b224aaf8edb94fe6ccb10f66437.jar" />
     </item>
 
 </items>
